@@ -1,0 +1,17 @@
+# This file acts as the project's changelog.
+
+@prefix :        <http://usefulinc.com/ns/doap#> .
+@prefix dcs:     <http://ontologi.es/doap-changeset#> .
+@prefix dc:      <http://purl.org/dc/terms/> .
+@prefix dist:    <http://purl.org/NET/cpan-uri/dist/Acme-About-TOBYINK/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dist:project :release dist:v_2011-293 .
+dist:v_2011-293
+	a               :Version ;
+	dc:issued       "2011-10-20"^^xsd:date ;
+	:revision       "2011.293"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Acme-About-TOBYINK-2011.293.tar.gz> ;
+	rdfs:label      "Initial release" .
+

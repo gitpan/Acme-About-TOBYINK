@@ -1,0 +1,29 @@
+---
+abstract: 'about Toby Inkster on CPAN'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.02'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Acme::About::TOBYINK
+name: Acme-About-TOBYINK
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  perl: 5.6.0
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Acme-About-TOBYINK
+  homepage: https://metacpan.org/release/Acme-About-TOBYINK
+  license: http://dev.perl.org/licenses/
+version: 2011.293
