@@ -15,3 +15,14 @@ dist:v_2011-293
 	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Acme-About-TOBYINK-2011.293.tar.gz> ;
 	rdfs:label      "Initial release" .
 
+dist:project :release dist:v_2012-006 .
+dist:v_2012-006
+	a               :Version ;
+	dc:issued       "2012-01-06"^^xsd:date ;
+	:revision       "2012.006"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Acme-About-TOBYINK-2012.006.tar.gz> ;
+	dcs:changeset [
+		dcs:versus dist:v_2011-293 ;
+		dcs:item   [ rdfs:label "Exceptions to the Perl 5.10 policy."@en ] ;
+		dcs:item   [ rdfs:label "Advance notice of a Perl 5.12 policy."@en ] ;
+		].

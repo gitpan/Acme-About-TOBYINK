@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 441643dafd420bd1d54dc82e163de4e5c23924d3 Changes
-SHA1 f3296a09eb07898f3ba6dd0ece615dafc1b57e16 LICENSE
+SHA1 410f378a0e4552cdd5d0dc7bc659cc43ea757d00 Changes
+SHA1 1d54db0b8134eb1c8ea0cee400f9dc612bcaa61a LICENSE
 SHA1 40bcff0d1ce727621714b59f89c209c6269cfebe MANIFEST
-SHA1 4fcd686f689c1031880d0ec6c4b8e60c94cb7ea2 META.yml
+SHA1 bf2b5115a2815fbcb038768d4ed2fc206373c7dc META.yml
 SHA1 7150e5e086ef493e1e527a1eeec44a8344b80db6 Makefile.PL
-SHA1 86c4679bcf9f06e188587fcf0722dd3ca0f69bfe README
+SHA1 6b44a4e40a9dda35331c7dda52c04de0f3224fe2 README
 SHA1 5d94bc10deff1dd74e4bc5dfa6fc015e39271f15 inc/Module/AutoInstall.pm
 SHA1 40106479d4e07f379cb82ca1d69fca92e3a40f47 inc/Module/Install.pm
 SHA1 34a24a530ecf0365cc02e4150b06c9bed702a441 inc/Module/Install/AutoInstall.pm
@@ -35,19 +35,19 @@ SHA1 b86d0385e10881db680d28bde94f275e49e34a27 inc/Module/Install/TrustMetaYml.pm
 SHA1 1326052d1df1065debee74f9d8583a734b9b3d00 inc/Module/Install/Win32.pm
 SHA1 bb607f3715c40fc3bc1c46496587cdb215bc4fa2 inc/Module/Install/WriteAll.pm
 SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
-SHA1 4db02ca3854a0d95bf38139e9b714cc85b618189 inc/Module/Package/Dist/RDF.pm
+SHA1 6b807287940754cc31a3db59f2b22e363d5525be inc/Module/Package/Dist/RDF.pm
 SHA1 775bd24f2fdbb6dce51a8b5b0cdb01fccfce83c4 inc/Scalar/Util.pm
 SHA1 b1b664983568bf822c327599eb88e223483ae96a inc/Scalar/Util/PP.pm
 SHA1 eef6bff62046bff2ce08ba132d0b58fba30f40b4 inc/YAML/Tiny.pm
-SHA1 5855eff280f2e646c24936f33b603f33cdfd4b8d lib/Acme/About/TOBYINK.pm
-SHA1 bd416e09066efcbb2f91a4616f78c43906befa46 meta/changes.ttl
+SHA1 2de7518bc5cab4a0ea516b51e52fe464f3818449 lib/Acme/About/TOBYINK.pm
+SHA1 149da14f9e501ce8a0925dbcd29cfe61b9ef1835 meta/changes.ttl
 SHA1 dfafc5ce48a561463ef57808e794b89b6c86aab8 meta/doap.ttl
 SHA1 a3e7dd55cd874fed797a5912e08dced4c496c130 meta/makefile.ttl
-SHA1 261f3712f56ace0f5e746520b83ddbcfad8c8ee6 t/01basic.t
+SHA1 78957d417d313314405401612d3f22b4b2c1d296 t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAk6go5UACgkQzr+BKGoqfTnTYACgk93kWdrKUFGWu0PLn2bexpNp
-cO4AoIyh9hSfpzf2/wPWXHj1kYIVehss
-=VCZT
+iEYEARECAAYFAk8Hfp4ACgkQzr+BKGoqfTnMigCeLUQzi8wm+g9rEU7WdS9wGBCP
+KKIAniqn7+TXLybTuN5hd6gviyr9H2XS
+=Hnyb
 -----END PGP SIGNATURE-----

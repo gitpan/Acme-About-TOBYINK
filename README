@@ -10,7 +10,7 @@ DESCRIPTION
     and NNN is a three digit minor version. When M is 0, do not expect too
     much API stability. Once M reaches 1, then expect the API to be
     reasonably stable until M reaches 2. Big jumps in the minor version are
-    used to signal major changes.
+    used to signal largish changes, albeit with a roughly compatible API.
 
     This release is an exception - it uses a date-based version.
 
@@ -22,7 +22,20 @@ DESCRIPTION
     <http://en.wikipedia.org/wiki/Indent_style#Allman_style>, using tabs for
     indentation <http://www.derkarl.org/why_to_tabs.html>.
 
-    As of 10 October 2011, all my releases will target Perl 5.10.
+  Compatibility
+    As of 10 October 2011, all my releases will target Perl 5.10, except:
+
+    *   Build Toolchain
+
+        My Module::Install/Module::Package-related releases target Perl 5.8.
+
+    *   OO Framework
+
+        This includes Object::Role, Object::AUTHORITY, Object::DOES,
+        Object::Tap and some related modules target Perl 5.6.
+
+    From July 2012, all my new releases will target Perl 5.12. Existing
+    releases will move to 5.12 if/when I see an advantage to it.
 
   Packaging Conventions
     As of October 2011, all my releases use Module::Package::RDF for
@@ -35,7 +48,7 @@ AUTHOR
     Toby Inkster <tobyink@cpan.org>.
 
 COPYRIGHT AND LICENCE
-    This software is copyright (c) 2011 by Toby Inkster.
+    This software is copyright (c) 2011-2012 by Toby Inkster.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
